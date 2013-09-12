@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(244, 253, 255);
+}
+
+div#stage > table {
+    background-color: green;
+    width: 400px;
+    height: 400px;
+    border-collapse: collapse;
+    clear:both;
+}
+
+div#stage td {
+    border: 1px white solid;
+    border-radius: 200px;
+}
+
+#score {
+    height: 20px;
+}
+
+#score > div {
+    margin-bottom: 8px;
+}
+
+#score > div:first-child {
+    float: left;
+    width: 60px;
+}
+
+div.symbol {
+    float: left;
+    width: 14px;
+    height: 14px;
+    border-radius: 14px;
+    margin: 0 8px 0 8px;
+}
+
+div.color-black {
+    background-color: black;
+    border: 1px solid gray;
+}
+
+div.color-white {
+    background-color: white;
+    border: 1px solid gray;
+}

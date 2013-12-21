@@ -52,7 +52,7 @@ window.Othello.View = window.Othello.View || {};
                     this.mainView = board_view;
                     break;
             }
-        },
+        }
         
     });
     

@@ -104,9 +104,7 @@ window.Othello.View = window.Othello.View || {};
                 var cells = [];
                 for (var y = 0; y < 8; y++) {
                     for (var x = 0; x < 8; x++) {
-//                        if (data.board[y][x] !== window.Othello.BOARD_STATE.NONE) {
-                            cells.push({x: x, y: y, color: window.Othello.Util.getColor(data.board[y][x]), id: y * 8 + x});
-//                        }
+                        cells.push({x: x, y: y, color: window.Othello.Util.getColor(data.board[y][x]), id: y * 8 + x});
                     }
                 }
                 
